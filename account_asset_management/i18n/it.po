@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: account-financial-tools (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-10 23:23+0000\n"
-"PO-Revision-Date: 2024-11-18 22:06+0000\n"
+"PO-Revision-Date: 2025-08-19 15:25+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: Italian (http://www.transifex.com/oca/"
 "OCA-account-financial-tools-8-0/language/it/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #. module: account_asset_management
 #. odoo-python
@@ -192,7 +192,7 @@ msgstr "Conto cespite"
 #: model:ir.model.fields,field_description:account_asset_management.field_account_move__asset_count
 #: model:ir.model.fields,field_description:account_asset_management.field_account_payment__asset_count
 msgid "Asset Count"
-msgstr "Numero cespite"
+msgstr "Conteggio cespiti"
 
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_account_asset_group
@@ -278,8 +278,7 @@ msgstr "Riga tabella ammortamenti cespite"
 #: code:addons/account_asset_management/models/account_move.py:0
 #, python-format
 msgid "Asset name must be set in the label of the line."
-msgstr ""
-"Il nome del cespite deve essere impostato nell'etichetta della riga line."
+msgstr "Il nome del cespite deve essere impostato nell'etichetta della riga."
 
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_account_asset_profile
@@ -335,7 +334,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__days_calc
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_profile__days_calc
 msgid "Calculate by days"
-msgstr "Calcolo per giorni"
+msgstr "Calcola per giorni"
 
 #. module: account_asset_management
 #: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_compute_view_form
@@ -478,7 +477,7 @@ msgstr "Calcola ammortamenti"
 #: code:addons/account_asset_management/wizard/account_asset_compute.py:0
 #, python-format
 msgid "Compute Assets errors"
-msgstr "Calcola errori ammortamento"
+msgstr "Calcola errori cespiti"
 
 #. module: account_asset_management
 #. odoo-python
@@ -1224,7 +1223,7 @@ msgstr "Valore fine periodo"
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__method_period
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_profile__method_period
 msgid "Period Length"
-msgstr "Durata del Periodo"
+msgstr "Durata periodo"
 
 #. module: account_asset_management
 #. odoo-python
@@ -1651,7 +1650,7 @@ msgstr "Errore indefinito"
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__use_leap_years
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_profile__use_leap_years
 msgid "Use Leap Years"
-msgstr "Una anni bisestili"
+msgstr "Usa anni bisestili"
 
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_wiz_asset_move_reverse__journal_id
@@ -1672,7 +1671,7 @@ msgstr "Vedi registrazioni cespiti"
 #. module: account_asset_management
 #: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_view_form
 msgid "View Move"
-msgstr "Vedi movimenti"
+msgstr "Vedi movimento"
 
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__website_message_ids
